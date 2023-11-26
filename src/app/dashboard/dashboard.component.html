@@ -1,0 +1,10 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <span>App Cibertec</span>
+      <span class="example-spacer"></span>
+      <button mat-button (click)="onNavigateToHomePage()">Home</button>
+      <button mat-button (click)="onNavigateToAlmacenPage()" >Almacen</button>
+      <button mat-button (click)="onNavigateToObreroPage()">Obrero</button>      
+    </mat-toolbar-row>
+</mat-toolbar>
+<router-outlet></router-outlet>
